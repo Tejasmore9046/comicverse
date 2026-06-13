@@ -1,5 +1,7 @@
 package com.tejas.comicverse.controller;
 
+import com.tejas.comicverse.dto.LoginRequest;
+import com.tejas.comicverse.dto.LoginResponse;
 import com.tejas.comicverse.dto.RegisterRequest;
 import com.tejas.comicverse.entity.User;
 import com.tejas.comicverse.service.UserService;
@@ -19,5 +21,10 @@ public class AuthController {
     @PostMapping("/register")
     public User register(@RequestBody RegisterRequest request) {
         return userService.register(request);
+    }
+
+    @PostMapping("/login")
+    public LoginResponse login(@RequestBody LoginRequest request) {
+        return userService.login(request);
     }
 }
