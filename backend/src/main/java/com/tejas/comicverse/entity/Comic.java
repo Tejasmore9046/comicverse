@@ -14,10 +14,15 @@ public class Comic {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String title;
+
     @Column(length = 2000)
     private String description;
+
     private String author;
+
     private String coverImageUrl;
+
     private String genre;
 }
