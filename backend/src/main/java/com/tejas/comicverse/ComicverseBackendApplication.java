@@ -1,4 +1,4 @@
-package comicverse_backend;
+package com.tejas.comicverse;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

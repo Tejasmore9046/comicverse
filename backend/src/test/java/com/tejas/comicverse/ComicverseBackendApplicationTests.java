@@ -1,4 +1,4 @@
-package comicverse_backend;
+package com.tejas.comicverse;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

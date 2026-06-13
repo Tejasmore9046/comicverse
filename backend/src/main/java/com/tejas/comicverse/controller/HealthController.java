@@ -1,4 +1,4 @@
-package comicverse_backend.controller;
+package com.tejas.comicverse.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
